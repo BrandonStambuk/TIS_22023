@@ -7,28 +7,34 @@
     <link rel="stylesheet" href="{{ asset('css/fondo.css') }}">
     <link rel="stylesheet" href="{{ asset('css/homepage.css') }}">
     <title>Inicio</title>
-   
+
 </head>
 <body>
     <div id="navbar"></div>
-    <div class="container" style="width: 90vw; font-size: 1em; ">
-      <div class="row">
-        <div class="col-md-6">
-          <!-- Espacio para la imagen -->
-          <img src="tu-imagen.jpg" alt="Imagen" class="img-fluid" />
-        </div>   
-        <div class="col-md-6">
-          <!-- Texto "QUE ES LA ICPC?" -->
-          <h1>Que es la ICPC?</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Phasellus quis massa id quam convallis accumsan. Sed euismod nisl 
-            ac dui auctor, non rhoncus justo varius. Suspendisse ut bibendum libero.
-             Sed in libero non nunc blandit efficitur id nec odio. Nullam vel urna sed massa luctus blandit. In et vehicula justo. Vivamus a nulla vitae sapien vestibulum interdum. Nunc vehicula mi eu ipsum fringilla, ac condimentum nisl viverra. Duis malesuada, justo non aliquam tincidunt, eros urna cursus nisi, eu aliquet tellus elit a nulla. Sed efficitur, elit vel feugiat fermentum, nunc justo bibendum lectus, eu fermentum turpis quam eget urna. Integer eu turpis vitae arcu cursus tristique eget ac dui. In eu odio et justo tincidunt condimentum. Sed hendrerit scelerisque odio, vel bibendum urna.
-          </p>
+    <div class="container" style="width: 100vw; font-size: 1em;">
+        <div class="left-div">
+            <div class="blue-rectangle">
+              <p>EVENTO UMSS CONTEST</p>
+            </div> <!-- Div rectangular azul -->
+            <img src="ruta-de-tu-imagen.jpg" alt="Imagen">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in tincidunt quam. Integer id odio vitae nisi varius bibendum. Maecenas vitae augue vel libero ultricies fermentum ac in libero. Vestibulum eleifend quam sed est tincidunt, id hendrerit sapien malesuada. Vivamus ac tortor metus. Nulla facilisi. Aliquam lacinia aliquam metus, vel bibendum dui venenatis eu. Sed quis turpis non ante posuere tincidunt. In hac habitasse platea dictumst. Phasellus vel enim nec ipsum fermentum euismod
+
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in tincidunt quam. Integer id odio vitae nisi varius bibendum. Maecenas vitae augue vel libero ultricies fermentum ac in libero. Vestibulum eleifend quam sed est tincidunt, id hendrerit sapien malesuada. Vivamus ac tortor metus. Nulla facilisi. Aliquam lacinia aliquam metus, vel bibendum dui venenatis eu. Sed quis turpis non ante posuere tincidunt. In hac habitasse platea dictumst. Phasellus vel enim nec ipsum fermentum euismod</p>
         </div>
-      </div>
+        <div class="right-div">
+            <div class="blue-rectangle">
+              <p>EVENTOS PASADOS</p>
+            </div> <!-- Div rectangular azul -->
+                      <div class = "e1">Clasificatorio Nacional</div>
+                      <div class = "e2">Competicion entre universidades</div>
+                      <div class = "e3">Competencia regional</div>
+            
+           
+            <!-- Agrega más elementos según sea necesario -->
+        </div>
     </div>
-    
     <script src="{{ mix('js/app.js') }}"></script>
 </body>
 </html>

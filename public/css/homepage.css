@@ -1,0 +1,25 @@
+.container{
+   
+    background: rgba(192, 192, 192,0.85);
+    border-radius: 3%;
+    margin: 0 auto;
+    margin-top: 4%;
+    text-align:center;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    max-width: 90vw;
+    min-width: 320px;
+    box-shadow:
+  0.5px 10.3px 2.7px rgba(0, 0, 0, 0.34),
+  0.9px 18.3px 6.9px rgba(0, 0, 0, 0.205),
+  1.5px 30.8px 14.2px rgba(0, 0, 0, 0.106),
+  3.5px 71.9px 29.2px rgba(0, 0, 0, 0.055),
+  14px 285px 80px rgba(0, 0, 0, 0.07);
+
+}
+
+.p{
+    text-align: justify;
+}

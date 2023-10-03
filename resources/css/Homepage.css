@@ -1,0 +1,31 @@
+.card-translucent {
+	background-color: rgba(221, 221, 221, 0.251);
+}
+
+
+table {
+	background-color: white;
+	text-align: left;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th,
+td {
+	padding: 10px;
+}
+
+thead {
+	background-color: #0F5FA6;
+	border-bottom: solid 7px #ffffff;
+	color: white;
+}
+
+tbody tr {
+	border-bottom: solid 7px #ffffff;
+	background-color: #ddd;
+}
+
+
+
+

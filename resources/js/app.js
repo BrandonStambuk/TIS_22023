@@ -15,3 +15,4 @@ require('./bootstrap');
 require('./components/Example');
 require('./components/Navbar');
 require('./components/HomePage');
+require('./components/EventList');

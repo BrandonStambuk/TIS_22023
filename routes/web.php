@@ -17,4 +17,6 @@ Route::get('/', function () {
     return view('homepage');
 });
 
+Route::get('/eventos', 'App\Http\Controllers\EventListController@index');
+
 Route::get('/inicio', 'App\Http\Controllers\InicioController@Home');

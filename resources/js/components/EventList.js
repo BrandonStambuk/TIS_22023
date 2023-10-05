@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../../../resources/css/eventList.css';
-
+//comentario prueba 
 function EventList() {
   return (
     <div className="container mt-5">

@@ -9,12 +9,12 @@ function EventList() {
       <div className="row">
         <div className="col-md-8">
           <div className="card card-translucent">
-            <h3 className="card-header">Eventos Diponibles</h3>
+            <h3 className="card-header">Eventos Diponibles de mierda</h3>
             <div className="card-body table-responsive tabla-contenedor">
               <table>
                 <thead>
                   <tr >
-                    <th className='text-white'>Nombre</th>
+                    <th className='text-white'>Nombre2</th>
                     <th className='text-white'>Tipo</th>
                     <th className='text-white'>Fecha de Inicio</th>
                     <th className='text-white'>Duración</th>
@@ -27,12 +27,7 @@ function EventList() {
                     <td>2023-10-06</td>
                     <td>6 horas</td>
                   </tr>
-                  <tr>
-                    <td>Evento 2</td>
-                    <td>Competencias de Entrenamiento</td>
-                    <td>2023-10-07</td>
-                    <td>8 horas</td>
-                  </tr>
+                  
                   <tr>
                     <td>Evento 3</td>
                     <td>Clasificatorios Internos</td>

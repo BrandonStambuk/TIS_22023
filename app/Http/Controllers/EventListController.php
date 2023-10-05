@@ -8,5 +8,5 @@ class EventListController extends Controller
 {
     public function index(){
         return view('eventlist');
-    }
+    }    
 }

@@ -36,7 +36,7 @@ function CreateEvent() {
     <div className="container mt-5">
       <div className="row">
         <div className="col-md-8 mx-auto">
-          <div className="card">
+          <div className="cardd">
             <div className="card-body">
               <div className="row">
                 {/* Columna izquierda para el form */}
@@ -147,17 +147,17 @@ function CreateEvent() {
                   </form>
                 </div>
                 {/* Columna derecha para el título "Descripción" */}
-                <div className="col-md-4">
+                {/* <div className="col-md-4">
                   <h3>Descripción</h3>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
         </div>
-        {/* Columna derecha vacía para editar no consigo mover la tarjeta un poco mas al centro xd*/}
+        {/* Columna derecha vacía para editar no consigo mover la tarjeta un poco mas al centro xd
         <div className="col-md-4">
             <p>estoy aqui</p>
-        </div>
+        </div> */}
       </div>
     </div>
   );

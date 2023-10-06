@@ -17,3 +17,4 @@ require('./components/Navbar');
 require('./components/HomePage');
 require('./components/EventList');
 require('./components/CreateEvent');
+require('./components/Descripcion');

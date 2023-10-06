@@ -18,5 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('/eventos', 'App\Http\Controllers\EventListController@index');
-
+                    
 Route::get('/inicio', 'App\Http\Controllers\InicioController@Home');

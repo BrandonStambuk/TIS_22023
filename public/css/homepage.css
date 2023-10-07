@@ -1,0 +1,77 @@
+.container{
+   
+    background: rgba(192, 192, 192,0.85);
+    border-radius: 3%;
+    margin: 0 auto;
+    margin-top: 4%;
+    text-align:center;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    max-width: 90vw;
+    min-width: 320px;
+    box-shadow:
+  0.5px 10.3px 2.7px rgba(0, 0, 0, 0.34),
+  0.9px 18.3px 6.9px rgba(0, 0, 0, 0.205),
+  1.5px 30.8px 14.2px rgba(0, 0, 0, 0.106),
+  3.5px 71.9px 29.2px rgba(0, 0, 0, 0.055),
+  14px 285px 80px rgba(0, 0, 0, 0.07);
+
+}
+
+.p{
+    text-align: justify;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start; /* Alinea elementos internos hacia arriba */
+}
+.left-div {
+  flex: 1; /* Ocupa el espacio disponible */
+  padding: 20px;
+  background-color: white; /* Fondo blanco */
+  border-radius: 5px;
+  box-shadow:
+  0.5px 10.3px 2.7px rgba(0, 0, 0, 0.34),
+  0.9px 18.3px 6.9px rgba(0, 0, 0, 0.205),
+  1.5px 30.8px 14.2px rgba(0, 0, 0, 0.106),
+  3.5px 71.9px 29.2px rgba(0, 0, 0, 0.055),
+  14px 285px 80px rgba(0, 0, 0, 0.07);
+}
+.right-div {
+  flex: 1; /* Ocupa el espacio disponible */
+  padding: 20px;
+  background-color: #221959;
+  margin-left: 20px;
+}
+.image {
+  max-width: 100%;
+  height: auto;
+}
+
+.blue-rectangle {
+  background-color: #0F5FA6;
+  height: 30px; /* Altura del rectángulo azul */
+  width: 100%; /* Ancho igual al del div padre */
+  margin-bottom:  5px;
+  border-radius: 3px;
+}
+
+.e1{
+  margin-bottom:  5px;
+  background-color: #FFFFFF;
+  border-radius: 3px;
+}
+
+.e2{
+  margin-bottom:  5px;
+  background-color: #FFFFFF;
+  border-radius: 3px;
+}
+.e3{
+  margin-bottom:  5px;
+  background-color: #FFFFFF;
+  border-radius: 3px;
+}

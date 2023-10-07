@@ -1,0 +1,27 @@
+.card-body{
+border-radius: 10px;
+border: 1px solid #221959;
+opacity: 0.85;
+background: rgba(34, 25, 89, 0.75);
+box-shadow: 0px 15px 4px 0px #000;
+}
+label{
+color: #fff;
+}
+h3{
+    font-size: #ffffff;
+}
+.boton-1{
+ margin-top:22%;
+ margin-left: 13%;
+}
+.boton-2{
+    margin-top: 0%;
+    margin-left: 15%;
+   }
+   
+.boton-3{
+    margin-top:22%;
+    margin-left: 28%;
+   }
+   
